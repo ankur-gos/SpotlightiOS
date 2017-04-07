@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		9286AD0D1E345A0200CF763F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD0C1E345A0200CF763F /* main.m */; };
+		9286AD101E345A0200CF763F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD0F1E345A0200CF763F /* AppDelegate.m */; };
+		9286AD131E345A0200CF763F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD121E345A0200CF763F /* ViewController.m */; };
+		9286AD161E345A0200CF763F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9286AD141E345A0200CF763F /* Main.storyboard */; };
+		9286AD181E345A0200CF763F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9286AD171E345A0200CF763F /* Assets.xcassets */; };
+		9286AD1B1E345A0200CF763F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9286AD191E345A0200CF763F /* LaunchScreen.storyboard */; };
+		9286AD261E345A0200CF763F /* SpotlightiOSTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD251E345A0200CF763F /* SpotlightiOSTests.m */; };
+		9286AD311E345A0200CF763F /* SpotlightiOSUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD301E345A0200CF763F /* SpotlightiOSUITests.m */; };
+		9286AD431E345AA000CF763F /* SpotifyAudioPlayback.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286AD401E345AA000CF763F /* SpotifyAudioPlayback.framework */; };
+		9286AD441E345AA000CF763F /* SpotifyAuthentication.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286AD411E345AA000CF763F /* SpotifyAuthentication.framework */; };
+		9286AD451E345AA000CF763F /* SpotifyMetadata.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286AD421E345AA000CF763F /* SpotifyMetadata.framework */; };
+		9286AD591E345C8800CF763F /* LoginController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD561E345C8800CF763F /* LoginController.m */; };
+		9286AD5A1E345C8800CF763F /* WebViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 9286AD581E345C8800CF763F /* WebViewController.m */; };
+		9286AD5C1E345D4800CF763F /* backdrop.png in Resources */ = {isa = PBXBuildFile; fileRef = 9286AD5B1E345D4800CF763F /* backdrop.png */; };
+		9286AD5E1E345ECB00CF763F /* Main_iPhone.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9286AD5D1E345ECB00CF763F /* Main_iPhone.storyboard */; };
+		9286AD601E345FA400CF763F /* SafariServices.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286AD5F1E345FA400CF763F /* SafariServices.framework */; };
+		9286AD621E345FAA00CF763F /* AVFoundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9286AD611E345FAA00CF763F /* AVFoundation.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		9286AD221E345A0200CF763F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9286AD001E345A0100CF763F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9286AD071E345A0200CF763F;
+			remoteInfo = SpotlightiOS;
+		};
+		9286AD2D1E345A0200CF763F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 9286AD001E345A0100CF763F /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9286AD071E345A0200CF763F;
+			remoteInfo = SpotlightiOS;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		9286AD081E345A0200CF763F /* SpotlightiOS.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SpotlightiOS.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		9286AD0C1E345A0200CF763F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		9286AD0E1E345A0200CF763F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		9286AD0F1E345A0200CF763F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		9286AD111E345A0200CF763F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		9286AD121E345A0200CF763F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		9286AD151E345A0200CF763F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		9286AD171E345A0200CF763F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		9286AD1A1E345A0200CF763F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		9286AD1C1E345A0200CF763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9286AD211E345A0200CF763F /* SpotlightiOSTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightiOSTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9286AD251E345A0200CF763F /* SpotlightiOSTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightiOSTests.m; sourceTree = "<group>"; };
+		9286AD271E345A0200CF763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9286AD2C1E345A0200CF763F /* SpotlightiOSUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SpotlightiOSUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		9286AD301E345A0200CF763F /* SpotlightiOSUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SpotlightiOSUITests.m; sourceTree = "<group>"; };
+		9286AD321E345A0200CF763F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		9286AD401E345AA000CF763F /* SpotifyAudioPlayback.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAudioPlayback.framework; sourceTree = "<group>"; };
+		9286AD411E345AA000CF763F /* SpotifyAuthentication.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyAuthentication.framework; sourceTree = "<group>"; };
+		9286AD421E345AA000CF763F /* SpotifyMetadata.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = SpotifyMetadata.framework; sourceTree = "<group>"; };
+		9286AD461E345AFA00CF763F /* Config.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Config.h; sourceTree = "<group>"; };
+		9286AD551E345C8800CF763F /* LoginController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = LoginController.h; sourceTree = "<group>"; };
+		9286AD561E345C8800CF763F /* LoginController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = LoginController.m; sourceTree = "<group>"; };
+		9286AD571E345C8800CF763F /* WebViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = WebViewController.h; sourceTree = "<group>"; };
+		9286AD581E345C8800CF763F /* WebViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = WebViewController.m; sourceTree = "<group>"; };
+		9286AD5B1E345D4800CF763F /* backdrop.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = backdrop.png; sourceTree = "<group>"; };
+		9286AD5D1E345ECB00CF763F /* Main_iPhone.storyboard */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.storyboard; path = Main_iPhone.storyboard; sourceTree = "<group>"; };
+		9286AD5F1E345FA400CF763F /* SafariServices.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SafariServices.framework; path = System/Library/Frameworks/SafariServices.framework; sourceTree = SDKROOT; };
+		9286AD611E345FAA00CF763F /* AVFoundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = AVFoundation.framework; path = System/Library/Frameworks/AVFoundation.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9286AD051E345A0200CF763F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9286AD621E345FAA00CF763F /* AVFoundation.framework in Frameworks */,
+				9286AD601E345FA400CF763F /* SafariServices.framework in Frameworks */,
+				9286AD431E345AA000CF763F /* SpotifyAudioPlayback.framework in Frameworks */,
+				9286AD451E345AA000CF763F /* SpotifyMetadata.framework in Frameworks */,
+				9286AD441E345AA000CF763F /* SpotifyAuthentication.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9286AD1E1E345A0200CF763F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9286AD291E345A0200CF763F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		9286ACFF1E345A0100CF763F = {
+			isa = PBXGroup;
+			children = (
+				9286AD0A1E345A0200CF763F /* SpotlightiOS */,
+				9286AD241E345A0200CF763F /* SpotlightiOSTests */,
+				9286AD2F1E345A0200CF763F /* SpotlightiOSUITests */,
+				9286AD091E345A0200CF763F /* Products */,
+				9286AD3F1E345A8800CF763F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		9286AD091E345A0200CF763F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9286AD081E345A0200CF763F /* SpotlightiOS.app */,
+				9286AD211E345A0200CF763F /* SpotlightiOSTests.xctest */,
+				9286AD2C1E345A0200CF763F /* SpotlightiOSUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		9286AD0A1E345A0200CF763F /* SpotlightiOS */ = {
+			isa = PBXGroup;
+			children = (
+				9286AD5D1E345ECB00CF763F /* Main_iPhone.storyboard */,
+				9286AD5B1E345D4800CF763F /* backdrop.png */,
+				9286AD551E345C8800CF763F /* LoginController.h */,
+				9286AD561E345C8800CF763F /* LoginController.m */,
+				9286AD571E345C8800CF763F /* WebViewController.h */,
+				9286AD581E345C8800CF763F /* WebViewController.m */,
+				9286AD461E345AFA00CF763F /* Config.h */,
+				9286AD0E1E345A0200CF763F /* AppDelegate.h */,
+				9286AD0F1E345A0200CF763F /* AppDelegate.m */,
+				9286AD111E345A0200CF763F /* ViewController.h */,
+				9286AD121E345A0200CF763F /* ViewController.m */,
+				9286AD141E345A0200CF763F /* Main.storyboard */,
+				9286AD171E345A0200CF763F /* Assets.xcassets */,
+				9286AD191E345A0200CF763F /* LaunchScreen.storyboard */,
+				9286AD1C1E345A0200CF763F /* Info.plist */,
+				9286AD0B1E345A0200CF763F /* Supporting Files */,
+			);
+			path = SpotlightiOS;
+			sourceTree = "<group>";
+		};
+		9286AD0B1E345A0200CF763F /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				9286AD0C1E345A0200CF763F /* main.m */,
+			);
+			name = "Supporting Files";
+			sourceTree = "<group>";
+		};
+		9286AD241E345A0200CF763F /* SpotlightiOSTests */ = {
+			isa = PBXGroup;
+			children = (
+				9286AD251E345A0200CF763F /* SpotlightiOSTests.m */,
+				9286AD271E345A0200CF763F /* Info.plist */,
+			);
+			path = SpotlightiOSTests;
+			sourceTree = "<group>";
+		};
+		9286AD2F1E345A0200CF763F /* SpotlightiOSUITests */ = {
+			isa = PBXGroup;
+			children = (
+				9286AD301E345A0200CF763F /* SpotlightiOSUITests.m */,
+				9286AD321E345A0200CF763F /* Info.plist */,
+			);
+			path = SpotlightiOSUITests;
+			sourceTree = "<group>";
+		};
+		9286AD3F1E345A8800CF763F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9286AD611E345FAA00CF763F /* AVFoundation.framework */,
+				9286AD5F1E345FA400CF763F /* SafariServices.framework */,
+				9286AD401E345AA000CF763F /* SpotifyAudioPlayback.framework */,
+				9286AD411E345AA000CF763F /* SpotifyAuthentication.framework */,
+				9286AD421E345AA000CF763F /* SpotifyMetadata.framework */,
+			);
+			name = Frameworks;
+			path = SpotlightiOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		9286AD071E345A0200CF763F /* SpotlightiOS */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9286AD351E345A0200CF763F /* Build configuration list for PBXNativeTarget "SpotlightiOS" */;
+			buildPhases = (
+				9286AD041E345A0200CF763F /* Sources */,
+				9286AD051E345A0200CF763F /* Frameworks */,
+				9286AD061E345A0200CF763F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SpotlightiOS;
+			productName = SpotlightiOS;
+			productReference = 9286AD081E345A0200CF763F /* SpotlightiOS.app */;
+			productType = "com.apple.product-type.application";
+		};
+		9286AD201E345A0200CF763F /* SpotlightiOSTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9286AD381E345A0200CF763F /* Build configuration list for PBXNativeTarget "SpotlightiOSTests" */;
+			buildPhases = (
+				9286AD1D1E345A0200CF763F /* Sources */,
+				9286AD1E1E345A0200CF763F /* Frameworks */,
+				9286AD1F1E345A0200CF763F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9286AD231E345A0200CF763F /* PBXTargetDependency */,
+			);
+			name = SpotlightiOSTests;
+			productName = SpotlightiOSTests;
+			productReference = 9286AD211E345A0200CF763F /* SpotlightiOSTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		9286AD2B1E345A0200CF763F /* SpotlightiOSUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 9286AD3B1E345A0200CF763F /* Build configuration list for PBXNativeTarget "SpotlightiOSUITests" */;
+			buildPhases = (
+				9286AD281E345A0200CF763F /* Sources */,
+				9286AD291E345A0200CF763F /* Frameworks */,
+				9286AD2A1E345A0200CF763F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9286AD2E1E345A0200CF763F /* PBXTargetDependency */,
+			);
+			name = SpotlightiOSUITests;
+			productName = SpotlightiOSUITests;
+			productReference = 9286AD2C1E345A0200CF763F /* SpotlightiOSUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		9286AD001E345A0100CF763F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0820;
+				ORGANIZATIONNAME = "Ankur Goswami";
+				TargetAttributes = {
+					9286AD071E345A0200CF763F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T35WP44PM3;
+						ProvisioningStyle = Automatic;
+					};
+					9286AD201E345A0200CF763F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T35WP44PM3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9286AD071E345A0200CF763F;
+					};
+					9286AD2B1E345A0200CF763F = {
+						CreatedOnToolsVersion = 8.2.1;
+						DevelopmentTeam = T35WP44PM3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = 9286AD071E345A0200CF763F;
+					};
+				};
+			};
+			buildConfigurationList = 9286AD031E345A0100CF763F /* Build configuration list for PBXProject "SpotlightiOS" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 9286ACFF1E345A0100CF763F;
+			productRefGroup = 9286AD091E345A0200CF763F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				9286AD071E345A0200CF763F /* SpotlightiOS */,
+				9286AD201E345A0200CF763F /* SpotlightiOSTests */,
+				9286AD2B1E345A0200CF763F /* SpotlightiOSUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		9286AD061E345A0200CF763F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9286AD5C1E345D4800CF763F /* backdrop.png in Resources */,
+				9286AD1B1E345A0200CF763F /* LaunchScreen.storyboard in Resources */,
+				9286AD5E1E345ECB00CF763F /* Main_iPhone.storyboard in Resources */,
+				9286AD181E345A0200CF763F /* Assets.xcassets in Resources */,
+				9286AD161E345A0200CF763F /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9286AD1F1E345A0200CF763F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9286AD2A1E345A0200CF763F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		9286AD041E345A0200CF763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9286AD131E345A0200CF763F /* ViewController.m in Sources */,
+				9286AD5A1E345C8800CF763F /* WebViewController.m in Sources */,
+				9286AD591E345C8800CF763F /* LoginController.m in Sources */,
+				9286AD101E345A0200CF763F /* AppDelegate.m in Sources */,
+				9286AD0D1E345A0200CF763F /* main.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9286AD1D1E345A0200CF763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9286AD261E345A0200CF763F /* SpotlightiOSTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		9286AD281E345A0200CF763F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9286AD311E345A0200CF763F /* SpotlightiOSUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9286AD231E345A0200CF763F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9286AD071E345A0200CF763F /* SpotlightiOS */;
+			targetProxy = 9286AD221E345A0200CF763F /* PBXContainerItemProxy */;
+		};
+		9286AD2E1E345A0200CF763F /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 9286AD071E345A0200CF763F /* SpotlightiOS */;
+			targetProxy = 9286AD2D1E345A0200CF763F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		9286AD141E345A0200CF763F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9286AD151E345A0200CF763F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		9286AD191E345A0200CF763F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				9286AD1A1E345A0200CF763F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		9286AD331E345A0200CF763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		9286AD341E345A0200CF763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.2;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9286AD361E345A0200CF763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T35WP44PM3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotlightiOS",
+				);
+				INFOPLIST_FILE = SpotlightiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurgoswami.SpotlightiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		9286AD371E345A0200CF763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				DEVELOPMENT_TEAM = T35WP44PM3;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/SpotlightiOS",
+				);
+				INFOPLIST_FILE = SpotlightiOS/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurgoswami.SpotlightiOS;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		9286AD391E345A0200CF763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T35WP44PM3;
+				INFOPLIST_FILE = SpotlightiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurgoswami.SpotlightiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotlightiOS.app/SpotlightiOS";
+			};
+			name = Debug;
+		};
+		9286AD3A1E345A0200CF763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				DEVELOPMENT_TEAM = T35WP44PM3;
+				INFOPLIST_FILE = SpotlightiOSTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurgoswami.SpotlightiOSTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SpotlightiOS.app/SpotlightiOS";
+			};
+			name = Release;
+		};
+		9286AD3C1E345A0200CF763F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T35WP44PM3;
+				INFOPLIST_FILE = SpotlightiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurgoswami.SpotlightiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotlightiOS;
+			};
+			name = Debug;
+		};
+		9286AD3D1E345A0200CF763F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				DEVELOPMENT_TEAM = T35WP44PM3;
+				INFOPLIST_FILE = SpotlightiOSUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.ankurgoswami.SpotlightiOSUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = SpotlightiOS;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		9286AD031E345A0100CF763F /* Build configuration list for PBXProject "SpotlightiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9286AD331E345A0200CF763F /* Debug */,
+				9286AD341E345A0200CF763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		9286AD351E345A0200CF763F /* Build configuration list for PBXNativeTarget "SpotlightiOS" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9286AD361E345A0200CF763F /* Debug */,
+				9286AD371E345A0200CF763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9286AD381E345A0200CF763F /* Build configuration list for PBXNativeTarget "SpotlightiOSTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9286AD391E345A0200CF763F /* Debug */,
+				9286AD3A1E345A0200CF763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		9286AD3B1E345A0200CF763F /* Build configuration list for PBXNativeTarget "SpotlightiOSUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				9286AD3C1E345A0200CF763F /* Debug */,
+				9286AD3D1E345A0200CF763F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 9286AD001E345A0100CF763F /* Project object */;
+}
